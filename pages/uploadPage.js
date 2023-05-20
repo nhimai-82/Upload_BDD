@@ -36,12 +36,7 @@ class UploadPage {
   async clickSubmitButton() {
     
     await this.btnSubmit.click();
-    setTimeout(() => {
-      console.log("Delayed for 1 second.");
-    }, 1000);
-    await this.page.waitForSelector('.active', {state:'hidden'});
-    // await expect(this.page.locator('.active')).toBeHidden()
-
+    
   }
 
   async getSuccessMessage() {
