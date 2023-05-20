@@ -5,7 +5,7 @@
 4. If you want to generate html report, we can use this command to run the test: npx cucumber-js --exit --format html:cucumber-report.html
 
 ## Features
-1. Tests are written in Javascript using Playwight framework
+1. Tests are written in Javascript using Cucumber Playwight framework
 2. Tests are written in Page Object Model
 3. Tests are written in BDD style (Gherkin language)
 
