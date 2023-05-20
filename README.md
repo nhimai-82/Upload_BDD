@@ -10,11 +10,11 @@
 3. Tests are written in BDD style (Gherkin language)
 
 ## Folder structure
-data: contains upload files
-features: contains BDD TestCases
-output: contains screenshot while test failed
-pages: contains page object model for each page
-step_definitions: define BDD steps written based on Cucumber
+1. data: contains upload files
+2. features: contains BDD TestCases
+3. output: contains screenshot while test failed
+4. pages: contains page object model for each page
+5. step_definitions: define BDD steps written based on Cucumber
 
 ## Roadmap
 1. Moduler project structure, allowing execute multiple sites in one testcase: admin site, email, ...
