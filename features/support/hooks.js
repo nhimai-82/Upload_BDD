@@ -24,7 +24,7 @@ BeforeStep(function () {
 AfterStep(async function ({ result }) {
   if (result.status == Status.FAILED) {
       await new Promise(resolve => setTimeout(resolve, 500));
-      await page.screenshot({ path: `screenshot_${Date.now()}.png` });
+      await page.screenshot({ path: `output/screenshot_${Date.now()}.png` });
       
   }
 

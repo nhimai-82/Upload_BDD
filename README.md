@@ -15,6 +15,7 @@
 3. output: contains screenshot while test failed
 4. pages: contains page object model for each page
 5. step_definitions: define BDD steps written based on Cucumber
+6. Support: contains hooks to run before or after each scenario.
 
 ## Roadmap
 1. Moduler project structure, allowing execute multiple sites in one testcase: admin site, email, ...
